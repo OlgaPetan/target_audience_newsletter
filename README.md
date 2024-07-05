@@ -1,5 +1,5 @@
 # Target Audience Newsletter
-The repo contains code that recommends the closest starting point for cyclist going on a long ride. The code uses __Uber's H3 hexagons__ to assign the starting point. It first finds cyclists who usually go on rides close to each other, and assigns them a starting point for an upcoming group ride. These recommendations are sent to cyclits in an email.
+The repo uses  __Uber's H3 hexagons__ to recommend the closest starting point for cyclist going on a long ride. It first finds cyclists who usually go on rides close to each other, and assigns them a starting point for an upcoming group ride. These recommendations are sent to cyclits in an email.
 
 It contains 4 files:
 - **assign_starting_points.ipynb** - a Jupyter notebook that analysis the cyclists, how often they ride, whether they start from the same location or not, etc. The notebook also contains the code that breaks down the area from the dataset into hexagons and assigns a cyclist to a hexagon. The centers of the hexagons users belong to are the starting points for the group ride.
